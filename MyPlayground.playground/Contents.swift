@@ -72,5 +72,43 @@ frases.append("Yes you can")
 print(frases)
 print(frases[1])
 
+//Utilizando SETS, set é como um array, mas ao usar set esse array nao tem ordem e os itens nāo podem se repetir.
+
+var lista = Set<String>()
+
+lista.insert("Pizza")
+lista.insert("Suco")
+lista.insert("Refrigerante" )
+lista.insert("Suco")
+
+print(lista)
+
+
+// UTILIZANDO DICIONARIOS
+// Dicionario é parecido com arrays, porem um dicionario permite armazenar um conjunto de duplas(chave/valor)
+//Assim como os arrays, os valores armazenados nos dicionarios precisam ter um tipo definido. Vejamos abaixo
+//alguns exemplos de como declarar dicionarios:
+
+var animais = [String: String]()
+animais["Urso"] = "Um animal gigante que hiberna"
+animais["Cachorro" ] = "Um animal melhor amigo do homem"
+
+print(animais["Urso" ]! )
+
+var meses = [Int: String]()
+meses [1] = "Janeiro"
+meses [2] = "Fevereiro"
+meses [3] = "Março"
+meses [4] = "Abril"
+meses [5] = "Maio"
+meses [6] = "Junho"
+meses [7] = "Julho"
+meses [8] = "Agosto"
+meses [9] = "Setembro"
+meses [10] = "Outubro"
+meses [11] = "Novembro"
+meses [12] = "Dezembro"
+
+print(meses[1]!)
 
 
